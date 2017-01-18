@@ -1,0 +1,187 @@
+
+menu "Anwendungen" folder {
+menu "Audio" folder {
+  prog "Alsamixergui" /usr/share/pixmaps/alsamixergui.xpm /usr/bin/alsamixergui
+  prog "Xfce Mixer" /usr/share/pixmaps/xfce4-mixer.xpm /usr/bin/xfce4-mixer
+}
+menu "Barrierefreiheit" folder {
+  prog "Xmag" - xmag
+}
+menu "Betrachter" folder {
+  prog "Evince" /usr/share/pixmaps/evince.xpm /usr/bin/evince
+  prog "Xditview" - xditview
+  prog "XDvi" - /usr/bin/xdvi
+}
+menu "Büro" folder {
+  prog "LibreOffice Calc" /usr/share/icons/hicolor/32x32/apps/libreoffice-calc.xpm /usr/bin/libreoffice --calc
+  prog "LibreOffice Impress" /usr/share/icons/hicolor/32x32/apps/libreoffice-impress.xpm /usr/bin/libreoffice --impress
+  prog "LibreOffice Writer" /usr/share/icons/hicolor/32x32/apps/libreoffice-writer.xpm /usr/bin/libreoffice --writer
+}
+menu "Dateiverwaltung" folder {
+  prog "PCManFM" - /usr/bin/pcmanfm
+  prog "Thunar" - /usr/bin/thunar
+  prog "Xarchiver" /usr/share/pixmaps/xarchiver.xpm /usr/bin/xarchiver
+  prog "Xfdesktop" - xfdesktop
+}
+menu "Datenverwaltung" folder {
+  prog "LibreOffice Base" /usr/share/icons/hicolor/32x32/apps/libreoffice-base.xpm /usr/bin/libreoffice --base
+}
+menu "Editoren" folder {
+  prog "LeafPad" /usr/share/pixmaps/leafpad.xpm /usr/bin/leafpad
+  prog "MousePad" /usr/share/pixmaps/mousepad.xpm /usr/bin/mousepad
+  prog "Nano" /usr/share/nano/nano-menu.xpm  xterm -T "Nano" -e /bin/nano
+  prog "prerex" -  xterm -T "prerex" -e /usr/bin/prerex
+  prog "texmaker" /usr/share/pixmaps/texmaker.xpm /usr/bin/texmaker
+  prog "vprerex" - /usr/bin/vprerex
+  prog "Xedit" - xedit
+}
+menu "Grafik" folder {
+  prog "Inkscape" /usr/share/pixmaps/inkscape.xpm /usr/bin/inkscape
+  prog "LibreOffice Draw" /usr/share/icons/hicolor/32x32/apps/libreoffice-draw.xpm /usr/bin/libreoffice --draw
+  prog "The GIMP" /usr/share/pixmaps/gimp.xpm /usr/bin/gimp
+  prog "XSane" /usr/share/pixmaps/xsane.xpm /usr/bin/xsane
+  prog "X Window Snapshot" - xwd | xwud
+}
+menu "Netzwerk" folder {
+menu "Dateiübertragung" folder {
+  prog "Deluge BitTorrent Client" /usr/share/pixmaps/deluge.xpm /usr/bin/deluge
+  prog "FileZilla" /usr/share/pixmaps/filezilla.xpm /usr/bin/filezilla
+}
+menu "Kommunikation" folder {
+  prog "Icedove Mail" /usr/share/pixmaps/icedove.xpm icedove
+  prog "Mutt" /usr/share/pixmaps/mutt.xpm  xterm -T "Mutt" -e /usr/bin/mutt
+  prog "Telnet" -  xterm -T "Telnet" -e /usr/bin/telnet
+  prog "Xbiff" - xbiff
+}
+menu "Web-Surfen" folder {
+  prog "Google Chrome" /opt/google/chrome/product_logo_32.xpm /opt/google/chrome/google-chrome
+  prog "w3m" -  xterm -T "w3m" -e /usr/bin/w3m /usr/share/doc/w3m/MANUAL.html
+}
+}
+menu "Programmierung" folder {
+  prog "DevHelp" /usr/share/pixmaps/devhelp-debian.xpm /usr/bin/devhelp
+  prog "GDB" -  xterm -T "GDB" -e /usr/bin/gdb
+  prog "Geany" /usr/share/pixmaps/geany.xpm /usr/bin/geany
+  prog "Glade 3" /usr/share/pixmaps/glade.xpm /usr/bin/glade
+  prog "Python (v2.7)" /usr/share/pixmaps/python2.7.xpm  xterm -T "Python (v2.7)" -e /usr/bin/python2.7
+  prog "Python (v3.4)" /usr/share/pixmaps/python3.4.xpm  xterm -T "Python (v3.4)" -e /usr/bin/python3.4
+  prog "Tclsh8.6" -  xterm -T "Tclsh8.6" -e /usr/bin/tclsh8.6
+  prog "TkWish8.6" - x-terminal-emulator -e /usr/bin/wish8.6
+}
+menu "Shells" folder {
+  prog "Bash" -  xterm -T "Bash" -e /bin/bash --login
+  prog "Dash" -  xterm -T "Dash" -e /bin/dash -i
+  prog "Sh" -  xterm -T "Sh" -e /bin/sh --login
+}
+menu "System" folder {
+menu "Administration" folder {
+  prog "About Myself" /usr/share/pixmaps/user_icon.xpm /usr/bin/userinfo
+  prog "Debian Task selector" -  xterm -T "Debian Task selector" -e su-to-root -c tasksel
+  prog "Disk Management" /usr/share/pixmaps/disks.xpm /usr/bin/usermount
+  prog "Editres" - editres
+  prog "LXAppearance" - /usr/bin/lxappearance
+  prog "menulibre" - menulibre
+  prog "Network Admin" /usr/share/gnome-system-tools/pixmaps/network.xpm /usr/bin/network-admin
+  prog "nitrogen" - /usr/bin/nitrogen
+  prog "Openbox Configuration Manager" /usr/share/pixmaps/obconf.xpm /usr/bin/obconf
+  prog "Openbox Menu Editor" - /usr/bin/obmenu
+  prog "Password" /usr/share/pixmaps/password.xpm /usr/bin/userpasswd
+  prog "Reportbug" -  xterm -T "Reportbug" -e /usr/bin/reportbug --exit-prompt
+  prog "Reportbug (GTK+)" - /usr/bin/reportbug --exit-prompt --ui gtk2
+  prog "Services Admin" /usr/share/gnome-system-tools/pixmaps/services.xpm /usr/bin/services-admin
+  prog "Shares Admin" /usr/share/gnome-system-tools/pixmaps/shares.xpm /usr/bin/shares-admin
+  prog "TeXconfig" -  xterm -T "TeXconfig" -e /usr/bin/texconfig
+  prog "Time Admin" /usr/share/gnome-system-tools/pixmaps/time.xpm /usr/bin/time-admin
+  prog "User accounts Admin" /usr/share/gnome-system-tools/pixmaps/users.xpm /usr/bin/users-admin
+  prog "Xclipboard" - xclipboard
+  prog "Xfce Application Finder" /usr/share/pixmaps/xfce4-appfinder.xpm xfce4-appfinder
+  prog "Xfontsel" - xfontsel
+  prog "Xkill" - xkill
+  prog "Xrefresh" - xrefresh
+}
+menu "Hardware" folder {
+  prog "LXRandR" - /usr/bin/lxrandr
+  prog "Xvidtune" - xvidtune
+}
+menu "Paketverwaltung" folder {
+  prog "Aptitude Package Manager (text)" -  xterm -T "Aptitude Package Manager (text)" -e /usr/bin/aptitude-curses
+  prog "Synaptic Package Manager" /usr/share/synaptic/pixmaps/synaptic_32x32.xpm x-terminal-emulator -e synaptic-pkexec
+}
+menu "Überwachung" folder {
+  prog "htop" -  xterm -T "htop" -e /usr/bin/htop
+  prog "LXTask" - /usr/bin/lxtask
+  prog "Pstree" /usr/share/pixmaps/pstree16.xpm  xterm -T "Pstree" -e /usr/bin/pstree.x11
+  prog "Top" -  xterm -T "Top" -e /usr/bin/top
+  prog "Xconsole" - xconsole -file /dev/xconsole
+  prog "Xev" - x-terminal-emulator -e xev
+  prog "Xload" - xload
+}
+}
+menu "Terminalemulatoren" folder {
+  prog "LXTerminal" /usr/share/pixmaps/lxterminal.xpm /usr/bin/lxterminal
+  prog "Xfce Terminal" /usr/share/pixmaps/xfce4-terminal.xpm /usr/bin/xfce4-terminal
+  prog "XTerm" /usr/share/pixmaps/xterm-color_32x32.xpm xterm
+  prog "X-Terminal as root (GKsu)" /usr/share/pixmaps/gksu-debian.xpm /usr/bin/gksu -u root /usr/bin/x-terminal-emulator
+  prog "XTerm (Unicode)" /usr/share/pixmaps/xterm-color_32x32.xpm uxterm
+}
+menu "Text" folder {
+  prog "Character map" - /usr/bin/gucharmap
+  prog "ClipIt" - /usr/bin/clipit
+}
+menu "Video" folder {
+  prog "VLC media player" /usr/share/icons/hicolor/32x32/apps/vlc.xpm /usr/bin/qvlc
+}
+menu "Wissenschaft" folder {
+menu "Mathematik" folder {
+  prog "Bc" -  xterm -T "Bc" -e /usr/bin/bc
+  prog "Dc" -  xterm -T "Dc" -e /usr/bin/dc
+  prog "galculator" /usr/share/pixmaps/galculator.xpm /usr/bin/galculator
+  prog "Gnuplot" -  xterm -T "Gnuplot" -e /usr/bin/gnuplot4-x11
+  prog "LibreOffice Math" /usr/share/icons/hicolor/32x32/apps/libreoffice-math.xpm /usr/bin/libreoffice --math
+  prog "wxMaxima" /usr/share/pixmaps/wxmaxima-16.xpm /usr/bin/wxmaxima
+  prog "Xcalc" - xcalc
+}
+}
+}
+menu "Bildschirm" folder {
+menu "Schonen" folder {
+  prog "Activate ScreenSaver (Next)" - /usr/bin/xscreensaver-command -next
+  prog "Activate ScreenSaver (Previous)" - /usr/bin/xscreensaver-command -prev
+  prog "Activate ScreenSaver (Random)" - /usr/bin/xscreensaver-command -activate
+  prog "Demo Screen Hacks" - /usr/bin/xscreensaver-command -demo
+  prog "Disable XScreenSaver" - /usr/bin/xscreensaver-command -exit
+  prog "Enable XScreenSaver" - /usr/bin/xscreensaver
+  prog "Reinitialize XScreenSaver" - /usr/bin/xscreensaver-command -restart
+  prog "ScreenSaver Preferences" - /usr/bin/xscreensaver-command -prefs
+}
+menu "Sperren" folder {
+  prog "Lock Screen (XScreenSaver)" - /usr/bin/xscreensaver-command -lock
+}
+}
+menu "Fenstermanager" folder {
+  restart "i3" - /usr/bin/i3
+  restart "IceWM" /usr/share/icewm/icons/icewm_16x16.xpm /usr/bin/icewm
+  restart "Openbox" /usr/share/pixmaps/openbox.xpm /usr/bin/openbox
+  restart "XFwm" - xfwm4
+}
+menu "Hilfe" folder {
+  prog "Info" -  xterm -T "Info" -e info
+  prog "TeXdoctk" - /usr/bin/texdoctk
+  prog "Xman" - xman
+  prog "yelp" - /usr/bin/yelp
+}
+menu "Spiele" folder {
+menu "Abenteuer" folder {
+  prog "Moria" /usr/share/pixmaps/moria.xpm  xterm -T "Moria" -e /usr/games/moria
+}
+menu "Spielzeuge" folder {
+  prog "Oclock" - oclock
+  prog "Xclock (analog)" - xclock -analog
+  prog "Xclock (digital)" - xclock -digital -update 1
+  prog "Xeyes" - xeyes
+  prog "Xlogo" - xlogo
+}
+menu "Strategie" folder {
+  prog "FreeCol" /usr/share/pixmaps/freecol.xpm /usr/games/freecol
+}
+}

@@ -1,0 +1,11 @@
+# This is a default toolbar definition file for IceWM
+#
+# Place your personal variant in $HOME/.icewm directory.
+
+prog "Terminal" xterm xfce4-terminal
+#prog FTE fte fte
+#prog Netscape netscape netscape
+#prog    "Vim" vim /usr/bin/gvim -f
+prog    "Webbrowser" iceweasel x-www-browser
+prog Thunar /usr/share/pixmaps/Thunar/Thunar-about-logo.png thunar
+

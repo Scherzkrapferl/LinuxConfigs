@@ -1,0 +1,3 @@
+#!/bin/bash
+# Autostart Skript für ICEWM
+conky &
