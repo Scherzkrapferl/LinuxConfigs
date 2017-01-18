@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Wallpaper
+nitrogen --restore &
+
+# Volume Control
+(sleep 2; xfce4-volumed) &
+
+
+# Panel
+lxpanel &
+# xfce4-panel &
+
+# Firefox Dark Themes Workarounds
+# GTK2_RC_FILES="/usr/share/themes/Adwaita/gtk-2.0/gtkrc" firefox $@

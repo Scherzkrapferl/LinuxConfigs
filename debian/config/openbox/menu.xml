@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="MENU"/>
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>lxterminal</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<item label="Web browser">
+			<action name="Execute">
+				<execute>google-chrome</execute>
+			</action>
+		</item>
+		<item label="Telegram">
+			<action name="Execute">
+				<execute>telegram %U</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-43824" label="Ordner">
+			<item label="Philipp">
+				<action name="Execute">
+					<execute>thunar ~/</execute>
+				</action>
+			</item>
+			<item label="Dokumente">
+				<action name="Execute">
+					<execute>thunar ~/Dokumente</execute>
+				</action>
+			</item>
+			<item label="Downloads">
+				<action name="Execute">
+					<execute>thunar ~/Downloads</execute>
+				</action>
+			</item>
+			<item label="Projekte">
+				<action name="Execute">
+					<execute>thunar ~/Projekte</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<menu id="root-menu-20187" label="Büro">
+			<item label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="KeepNote">
+				<action name="Execute">
+					<execute>keepnote</execute>
+				</action>
+			</item>
+			<item label="Mousepad">
+				<action name="Execute">
+					<execute>mousepad</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Thunar">
+				<action name="Execute">
+					<execute>thunar</execute>
+				</action>
+			</item>
+			<item label="pcmanfm">
+				<action name="Execute">
+					<execute>pcmanfm</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Libre Office Writer">
+				<action name="Execute">
+					<execute>libreoffice -writer</execute>
+				</action>
+			</item>
+			<item label="Libre Office Calc">
+				<action name="Execute">
+					<execute>libreoffice -calc</execute>
+				</action>
+			</item>
+			<item label="Libre Office Impress">
+				<action name="Execute">
+					<execute>libreoffice -impress</execute>
+				</action>
+			</item>
+			<item label="Libre Office Draw">
+				<action name="Execute">
+					<execute>libreoffice -draw</execute>
+				</action>
+			</item>
+			<item label="Libre Office Base">
+				<action name="Execute">
+					<execute>libreoffice -base</execute>
+				</action>
+			</item>
+			<item label="Libre Office Math">
+				<action name="Execute">
+					<execute>libreoffice -math</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-772656" label="Grafik">
+			<item label="Geogebra">
+				<action name="Execute">
+					<execute>geogebra</execute>
+				</action>
+			</item>
+			<item label="Ristretto">
+				<action name="Execute">
+					<execute>ristretto</execute>
+				</action>
+			</item>
+			<item label="Evince">
+				<action name="Execute">
+					<execute>evince</execute>
+				</action>
+			</item>
+			<item label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-72350" label="Internet">
+			<item label="Google Chrome">
+				<action name="Execute">
+					<execute>google-chrome-stable</execute>
+				</action>
+			</item>
+			<item label="Firefox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="Icedove">
+				<action name="Execute">
+					<execute>icedove</execute>
+				</action>
+			</item>
+			<item label="mutt">
+				<action name="Execute">
+					<execute>lxterminal -e mutt</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Telegram">
+				<action name="Execute">
+					<execute>telegram</execute>
+				</action>
+			</item>
+			<item label="Skype">
+				<action name="Execute">
+					<execute>skype</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Dropbox">
+				<action name="Execute">
+					<execute>dropbox</execute>
+				</action>
+			</item>
+			<item label="teamviewer">
+				<action name="Execute">
+					<execute>teamviewer</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-12383" label="System">
+			<item label="Xfce Terminal">
+				<action name="Execute">
+					<execute>xfce4-terminal</execute>
+				</action>
+			</item>
+			<item label="Lxterminal">
+				<action name="Execute">
+					<execute>lxterminal</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Restart">
+				<action name="Restart"/>
+			</item>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Nitrogen">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="lxappearance">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Xfce Einstellungen">
+				<action name="Execute">
+					<execute>xfce4-settings-manager</execute>
+				</action>
+			</item>
+			<item label="Mate Einstellungen">
+				<action name="Execute">
+					<execute>mate-control-center</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Synaptic Paketverwaltung">
+				<action name="Execute">
+					<execute>gksu synaptic-pkexec</execute>
+				</action>
+			</item>
+			<item label="dconf-editor">
+				<action name="Execute">
+					<execute>dconf-editor</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-503851" label="Sonstiges">
+			<item label="VLC">
+				<action name="Execute">
+					<execute>vlc</execute>
+				</action>
+			</item>
+			<item label="Xfburn">
+				<action name="Execute">
+					<execute>xfburn</execute>
+				</action>
+			</item>
+			<item label="Speed Crunch">
+				<action name="Execute">
+					<execute>speedcrunch</execute>
+				</action>
+			</item>
+			<item label="Galculator">
+				<action name="Execute">
+					<execute>galculator</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Mate Screenshot">
+				<action name="Execute">
+					<execute>mate-screenshot</execute>
+				</action>
+			</item>
+			<item label="Scrot Bildschirmfoto">
+				<action name="Execute">
+					<execute>scrot</execute>
+				</action>
+			</item>
+			<item label="Xfce Screenshooter">
+				<action name="Execute">
+					<execute>xfce4-screenshooter</execute>
+				</action>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="/Debian"/>
+		<menu id="root-menu-101159" label="config files">
+			<item label=".config">
+				<action name="Execute">
+					<execute>thunar ~/.config</execute>
+				</action>
+			</item>
+			<item label=".config/openbox">
+				<action name="Execute">
+					<execute>thunar ~/.config/openbox</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="/usr/share">
+				<action name="Execute">
+					<execute>gksu thunar /usr/share</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Synaptic">
+			<action name="Execute">
+				<execute>gksu synaptic-pkexec</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="LOGOUT">
+			<action name="Execute">
+				<execute>lxsession-logout</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
