@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Boot Config
+Icon=terminal
+Exec=sudo nano /mnt-system/boot/syslinux/syslinux.cfg
+Terminal=true
+Type=Application
