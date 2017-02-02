@@ -1,0 +1,7 @@
+# Security updates
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+# Austria mirror
+deb http://ftp.at.debian.org/debian/ wheezy main contrib non-free
+deb-src http://ftp.at.debian.org/debian/ wheezy main contrib non-free
