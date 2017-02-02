@@ -1,3 +1,3 @@
 # LinuxConfigs
 
-Linux config files for different distributions.
+Config files for different Linux distributions. 
