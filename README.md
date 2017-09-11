@@ -2,6 +2,7 @@
 
 Config files for different Linux distributions and OSX.
 
+
 +--Distros:
 |  +-- Arch/
 |      +-- i3/
