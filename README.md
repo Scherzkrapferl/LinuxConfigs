@@ -1,6 +1,7 @@
 # LinuxConfigs
 
-Config files for different Linux distributions and OSX.
+Config files for different Linux distributions.
+OSX aliases added via .bash_profile.
 
 +--Distros:
 |  +-- Arch/
